@@ -35,7 +35,7 @@ public class Slytherin extends Hogwarts {
     public int getThirstPower() {
         return thirstPower;
     }
-    public void compasionStident(Griffindor other) {
+    public void compareStident(Slytherin other) {
         if (this.sumPoints() < other.sumPoints()) {
             System.out.println("Сильнее студент " + other.getName());
         } else if (this.sumPoints() > other.sumPoints()) {

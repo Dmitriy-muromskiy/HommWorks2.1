@@ -22,7 +22,7 @@ public class Hufflepuff extends Hogwarts {
     public int getHonesty() {
         return honesty;
     }
-    public void compasionStident(Griffindor other) {
+    public void compareStident(Hufflepuff other) {
         if (this.sumPoints() < other.sumPoints()) {
             System.out.println("Сильнее студент " + other.getName());
         } else if (this.sumPoints() > other.sumPoints()) {

@@ -30,7 +30,7 @@ public class Ravenclaw extends Hogwarts {
         return creativity;
     }
 
-    public void compasionStident(Griffindor other) {
+    public void compareStident(Griffindor other) {
         if (this.sumPoints() < other.sumPoints()) {
             System.out.println("Сильнее студент " + other.getName());
         } else if (this.sumPoints() > other.sumPoints()) {
